@@ -1,0 +1,7 @@
+//mixin
+
+@mixin grid{
+    height: 100vh;
+    display: grid;
+    gap: 20px;
+}
