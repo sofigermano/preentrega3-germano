@@ -108,6 +108,7 @@ footer{
     }
 }
 
+
 @media screen and (min-width:600px){
     .contain{
         grid-template-columns: repeat(2, 50%);
@@ -225,6 +226,7 @@ footer{
         }
     } 
     .mas-contactos{
+        padding-top: 80px;
         .video{
             display: none;
         }
@@ -234,10 +236,14 @@ footer{
 @media screen and (min-width:600px){
     .form{
         .mas-contactos{
+            padding-top: 15px;
             .video{
                 display: block;
             }
         }
+    }
+    .contacts{
+        padding-top: 60px;
     }
 }
 
@@ -248,6 +254,9 @@ footer{
                 display: block;
             }
         }
+    }
+    .contacts{
+        padding-top: 60px;
     }
 }
 

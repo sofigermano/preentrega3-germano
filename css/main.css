@@ -159,16 +159,24 @@ footer {
     width: 100%;
     height: 100%;
     object-fit: cover; }
-  .form .mas-contactos .video {
-    display: none; }
+  .form .mas-contactos {
+    padding-top: 80px; }
+    .form .mas-contactos .video {
+      display: none; }
 
 @media screen and (min-width: 600px) {
-  .form .mas-contactos .video {
-    display: block; } }
+  .form .mas-contactos {
+    padding-top: 15px; }
+    .form .mas-contactos .video {
+      display: block; }
+  .contacts {
+    padding-top: 60px; } }
 
 @media screen and (min-width: 1024px) {
   .form .mas-contactos .video {
-    display: block; } }
+    display: block; }
+  .contacts {
+    padding-top: 60px; } }
 
 /*sobre amigurumis*/
 /*estilos boostrap*/
